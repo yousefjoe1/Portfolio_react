@@ -1,0 +1,126 @@
+.animIcon {
+    animation-name: animeicon;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes animeicon {
+    0% {
+        transform: rotateZ(0deg)
+        
+    }
+    100% {
+        transform: rotateZ(360deg)
+    }
+}
+
+.links {
+    /* transition: all 2s ease; */
+    flex-direction: row;
+    padding: 8px;
+    flex-wrap: wrap;
+}
+
+.links a {
+    font-size: 20px;
+    transition: all .6s ease;
+    padding: 5px;
+    position: relative;
+    margin: 3px;
+}
+
+.links a::after {
+    transition: all .6s ease;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 10%;
+    width: 0px;
+    background-color: aliceblue;
+}
+.links a::before {
+    transition: all .6s ease;
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 10%;
+    width: 0px;
+    background-color: rgb(53, 248, 28);
+}
+
+.links a:hover:after {
+    width: 100%;
+}
+
+.links a:hover:before {
+    width: 100% ;
+}
+
+.links a:hover {
+    border-radius: 5px;
+    border-left: 4px solid aliceblue;
+    border-right: 4px solid aliceblue;
+}
+
+.sidenav {
+    background-color: rgb(103, 201, 103);
+    height: 100%;
+    padding: 10px;
+}
+
+.iconbtn {
+    /* background-color: aliceblue; */
+    animation-name: animeicon;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    margin-right: 10px;
+    animation-timing-function: linear;
+}
+
+.iconbtn:hover {
+    border: 1px solid aqua;
+    color: white;
+    margin-right: 5px
+}
+
+.sidenav a {
+    font-size: 20px;
+    transition: all .6s ease;
+    padding: 5px 0 5px 0;
+    position: relative;
+    margin: 3px;
+}
+
+.sidenav a::after {
+    transition: all .6s ease;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 10%;
+    width: 0px;
+    background-color: aliceblue;
+}
+.sidenav a:hover:after {
+    transform: rotateZ(10deg);
+    width: 100%;
+}
+
+.sidenav a::before {
+    transition: all .6s ease;
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 10%;
+    width: 0px;
+    background-color: aliceblue;
+}
+
+.sidenav a:hover:before {
+    width: 100%;
+    transform: rotateZ(-10deg);
+    margin-top: 5px;
+}

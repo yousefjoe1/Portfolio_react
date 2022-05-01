@@ -1,0 +1,134 @@
+.aboutContainer {
+    background-color: rgb(103, 201, 103);
+    min-height: 100vh;
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 900px;
+    margin: 70px auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.aboutSection {
+    background-color: white;
+    display: flex;
+    width: 900px;
+    border-radius: 5px;
+}
+
+.aboutSection img {
+    height: 100%;
+    border-radius: 5px;
+}
+
+.infoContainer {
+    padding-left: 5px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.details {
+    display: flex;
+    font-size: 20px;
+    padding: 5px;
+    border-top: 2px solid lightblue;
+}
+
+.details .rightInfo {
+    margin-left: 10px;
+    word-break: break-all;
+}
+
+.personalLinks {
+    border-top: 2px solid lightgrey;
+    border-radius: 5px;
+}
+
+.personalLinks a {
+    font-size: 40px;
+    background-color: aliceblue;
+    color: black;
+}
+
+.personalLinks a:hover {
+    color: rgb(33, 67, 204);
+}
+
+.hellotxt {
+    background-color: rgb(103, 201, 103);
+    width: 100px;
+    padding: 5px;
+    position: relative;
+    z-index: 5;
+    color: aliceblue;
+    font-size: 18px;
+}
+
+.hellotxt::after {
+    content: '';
+    width: 50px;
+    height: 4px;
+    top: 57px;
+    right: 0px;
+    background-color: rgb(103, 201, 103);
+    transform: rotateZ(40deg);;
+    position: absolute;
+    z-index: 1;
+    border-radius: 30px;
+}
+
+.myname {
+    background-color: rgb(103, 201, 103);
+    padding: 5px;
+    color: aliceblue;
+}
+
+
+@media (max-width: 940px){
+
+    .aboutContainer {
+        width: 90%;
+    }
+
+    .aboutSection {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .aboutSection img {
+        max-width: 200px;
+        border-radius: 5px;
+    }
+
+    .infoContainer {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .personalLinks {
+        width: 90%;
+        text-align: center;
+    }
+}
+
+.title {
+    background-color: black;
+    color: white;
+    border-bottom: orange 4px solid;
+    padding: 10px;
+}
+
+.brief {
+    color: aliceblue;
+    background-color: rgb(69, 69, 69,.5);
+    box-shadow: 1px 2px 3px white;
+    padding: 10px;
+    border-radius: 8px;
+}

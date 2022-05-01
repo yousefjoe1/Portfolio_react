@@ -1,0 +1,14 @@
+.certifcatesContainer {
+    min-height: 100vh;
+    background-color: #1976d2;
+}
+
+.box {
+    width: 600px;
+    text-align: center;
+    height: 400px;
+}
+
+.box img {
+    width: 90%;
+}
