@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio_react/static/css/main.1c5cdea9.css",
-    "main.js": "/Portfolio_react/static/js/main.2d647edf.js",
+    "main.css": "/Portfolio_react/static/css/main.f1bee692.css",
+    "main.js": "/Portfolio_react/static/js/main.ec5b0d17.js",
     "static/media/weatherapp.png": "/Portfolio_react/static/media/weatherapp.f24cbb27fd2de2d932d3.png",
     "static/media/amazontemp.png": "/Portfolio_react/static/media/amazontemp.65af4a21a6a1d6280ce6.png",
     "static/media/c5.png": "/Portfolio_react/static/media/c5.a789081f12224dad7b24.png",
@@ -16,11 +16,11 @@
     "static/media/c3.png": "/Portfolio_react/static/media/c3.a38608188f23fee49eaa.png",
     "static/media/advice-generator.png": "/Portfolio_react/static/media/advice-generator.6fb90875503dc008677f.png",
     "index.html": "/Portfolio_react/index.html",
-    "main.1c5cdea9.css.map": "/Portfolio_react/static/css/main.1c5cdea9.css.map",
-    "main.2d647edf.js.map": "/Portfolio_react/static/js/main.2d647edf.js.map"
+    "main.f1bee692.css.map": "/Portfolio_react/static/css/main.f1bee692.css.map",
+    "main.ec5b0d17.js.map": "/Portfolio_react/static/js/main.ec5b0d17.js.map"
   },
   "entrypoints": [
-    "static/css/main.1c5cdea9.css",
-    "static/js/main.2d647edf.js"
+    "static/css/main.f1bee692.css",
+    "static/js/main.ec5b0d17.js"
   ]
 }
