@@ -4,7 +4,6 @@ import me from "../../Imgs/me.png";
 import st from "./about.module.css";
 
 import { DiGithubBadge } from "react-icons/di";
-import { FaEnvelope } from "react-icons/fa";
 
 const About = () => {
   return (

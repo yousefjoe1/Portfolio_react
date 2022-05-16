@@ -12,7 +12,7 @@ import st from "./certificate.module.css";
 
 const Certificate = () => {
   return (
-    <section className={st.certifcatesContainer}>
+    <section id="certificates" className={st.certifcatesContainer}>
       <Grid justifyContent={"center"} container>
         <Box className={st.box} m={3}>
           <Card>

@@ -39,7 +39,9 @@ const Projects = () => {
             <img src={amazon} alt="" />
             <CardContent className={st.cardclass}>
               <h2 className={st.prTitle}>
-                <a href="">Click To Visit Amazon</a>{" "}
+                <a href="https://yousefjoe1.github.io/amazone1/">
+                  Click To Visit Amazon
+                </a>{" "}
               </h2>
               <h3 className={st.description}>
                 HTML + CSS + JAVASCRIPT + REACT.JS

@@ -1,11 +1,10 @@
 .skillsContainer {
-    /* background-color: lightgrey; */
     height: 100vh;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    /* border: 3px solid lightgreen; */
     max-width: 800px;
     background-color: rgb(103, 201, 103);
     margin: 0 auto;
@@ -17,7 +16,6 @@
 }
 
 .iconDiv {
-    /* background-color: aliceblue; */
     background-color: rgb(35, 2, 118);
     width: 100px;
     height: 100px;
@@ -52,7 +50,6 @@
     100%{
         transform: rotate(360deg) scale(1.5);
         color: orange;
-        /* background-color: rgb(35, 2, 118); */
     }
 }
 
@@ -70,4 +67,11 @@
     color: white;
     border-bottom: orange 4px solid;
     padding: 10px;
+}
+
+@media (max-width: 550px){
+    .circle {
+        justify-content: center;
+        text-align: center;
+    }
 }
