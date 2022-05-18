@@ -10,6 +10,7 @@ import temp1 from "../../Imgs/temp1.png";
 import vegcart from "../../Imgs/veg-cart.png";
 import shopcart from "../../Imgs/shoppingcart.png";
 import weatherapp from "../../Imgs/weatherapp.png";
+import Travel_advisor_project from "../../Imgs/Travel_advisor_project.png";
 
 const Projects = () => {
   return (
@@ -41,7 +42,7 @@ const Projects = () => {
               <h2 className={st.prTitle}>
                 <a href="https://yousefjoe1.github.io/amazone1/">
                   Click To Visit Amazon
-                </a>{" "}
+                </a>
               </h2>
               <h3 className={st.description}>
                 HTML + CSS + JAVASCRIPT + REACT.JS
@@ -116,6 +117,24 @@ const Projects = () => {
                 </a>
               </h2>
               <h3 className={st.description}>HTML + CSS + JAVASCRIPT</h3>
+            </CardContent>
+          </Card>
+        </Box>
+        <Box className={st.box} m={2} width={"500px"} height={"400px"}>
+          <Card>
+            <img src={Travel_advisor_project} alt="" />
+            <CardContent className={st.cardclass}>
+              <h2 className={st.prTitle}>
+                <a
+                  target="_blank"
+                  href="https://yousefjoe1.github.io/simple-react-travel-advisor-app/"
+                >
+                  Click To Visit Travel Advisor
+                </a>
+              </h2>
+              <h3 className={st.description}>
+                HTML + CSS + JAVASCRIPT + REACT + GOOGLE MAPS + MATERIAL-UI
+              </h3>
             </CardContent>
           </Card>
         </Box>
