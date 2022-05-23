@@ -11,6 +11,7 @@ import vegcart from "../../Imgs/veg-cart.png";
 import shopcart from "../../Imgs/shoppingcart.png";
 import weatherapp from "../../Imgs/weatherapp.png";
 import Travel_advisor_project from "../../Imgs/Travel_advisor_project.png";
+import crypto_project from "../../Imgs/crypto_project.png";
 
 const Projects = () => {
   return (
@@ -134,6 +135,24 @@ const Projects = () => {
               </h2>
               <h3 className={st.description}>
                 HTML + CSS + JAVASCRIPT + REACT + GOOGLE MAPS + MATERIAL-UI
+              </h3>
+            </CardContent>
+          </Card>
+        </Box>
+        <Box className={st.box} m={2} width={"500px"} height={"400px"}>
+          <Card>
+            <img src={crypto_project} alt="" />
+            <CardContent className={st.cardclass}>
+              <h2 className={st.prTitle}>
+                <a
+                  target="_blank"
+                  href="https://yousefjoe1.github.io/crypto-project/"
+                >
+                  Click To Visit Crypto app info
+                </a>
+              </h2>
+              <h3 className={st.description}>
+                HTML + CSS + JAVASCRIPT + REACT + Anti Design
               </h3>
             </CardContent>
           </Card>
