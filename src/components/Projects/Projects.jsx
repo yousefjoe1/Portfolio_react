@@ -61,7 +61,7 @@ const Projects = () => {
                   href="https://yousefjoe1.github.io/temp-2n/#/"
                   target="_blank"
                 >
-                  Click To Visit Responsive Landing page
+                  Click To Visit Responsive Landing Page.
                 </a>{" "}
               </h2>
               <h3 className={st.description}>
@@ -79,7 +79,7 @@ const Projects = () => {
                   target="_blank"
                   href="https://yousefjoe1.github.io/vegetables-shopping-cart/"
                 >
-                  Click To Visit Vegetable Shopping Cart
+                  Click To Visit Vegetable Shopping Cart.
                 </a>{" "}
               </h2>
               <h3 className={st.description}>
@@ -97,7 +97,7 @@ const Projects = () => {
                   target="_blank"
                   href="https://yousefjoe1.github.io/my-shopping-cart/#/shopping-cart"
                 >
-                  Click To Visit Food Shopping Cart
+                  Click To Visit Food Shopping Cart.
                 </a>{" "}
               </h2>
               <h3 className={st.description}>
@@ -115,7 +115,7 @@ const Projects = () => {
                   target="_blank"
                   href="https://yousefjoe1.github.io/simple-weather-app-js/"
                 >
-                  Click To Visit Weather App
+                  Click To Visit Weather App.
                 </a>
               </h2>
               <h3 className={st.description}>HTML + CSS + JAVASCRIPT</h3>
@@ -131,7 +131,7 @@ const Projects = () => {
                   target="_blank"
                   href="https://yousefjoe1.github.io/simple-react-travel-advisor-app/"
                 >
-                  Click To Visit Travel Advisor
+                  Click To Visit Travel Advisor.
                 </a>
               </h2>
               <h3 className={st.description}>
@@ -149,7 +149,7 @@ const Projects = () => {
                   target="_blank"
                   href="https://yousefjoe1.github.io/crypto-project/"
                 >
-                  Click To Visit Crypto app info
+                  Click To Visit Crypto app info.
                 </a>
               </h2>
               <h3 className={st.description}>
@@ -164,7 +164,7 @@ const Projects = () => {
             <CardContent className={st.cardclass}>
               <h2 className={st.prTitle}>
                 <a target="_blank" href="https://questions-game-cd095.web.app/">
-                  Click To Visit Questions Game
+                  Click To Visit Questions Game.
                 </a>
               </h2>
               <h3 className={st.description}>
