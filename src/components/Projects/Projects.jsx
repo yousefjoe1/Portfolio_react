@@ -12,6 +12,7 @@ import shopcart from "../../Imgs/shoppingcart.png";
 import weatherapp from "../../Imgs/weatherapp.png";
 import Travel_advisor_project from "../../Imgs/Travel_advisor_project.png";
 import crypto_project from "../../Imgs/crypto_project.png";
+import questions from "../../Imgs/questions.png";
 
 const Projects = () => {
   return (
@@ -153,6 +154,21 @@ const Projects = () => {
               </h2>
               <h3 className={st.description}>
                 HTML + CSS + JAVASCRIPT + REACT + Anti Design
+              </h3>
+            </CardContent>
+          </Card>
+        </Box>
+        <Box className={st.box} m={2} width={"500px"} height={"400px"}>
+          <Card>
+            <img src={questions} alt="" />
+            <CardContent className={st.cardclass}>
+              <h2 className={st.prTitle}>
+                <a target="_blank" href="https://questions-game-cd095.web.app/">
+                  Click To Visit Questions Game
+                </a>
+              </h2>
+              <h3 className={st.description}>
+                HTML + CSS + JAVASCRIPT + REACT + MATERIAL-UI + FIREBASE + REDUX
               </h3>
             </CardContent>
           </Card>
