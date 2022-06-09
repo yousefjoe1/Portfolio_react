@@ -13,6 +13,7 @@ import weatherapp from "../../Imgs/weatherapp.png";
 import Travel_advisor_project from "../../Imgs/Travel_advisor_project.png";
 import crypto_project from "../../Imgs/crypto_project.png";
 import questions from "../../Imgs/questions.png";
+import storeimg from "../../imgs/store.png";
 
 const Projects = () => {
   return (
@@ -169,6 +170,24 @@ const Projects = () => {
               </h2>
               <h3 className={st.description}>
                 HTML + CSS + JAVASCRIPT + REACT + MATERIAL-UI + FIREBASE + REDUX
+              </h3>
+            </CardContent>
+          </Card>
+        </Box>
+        <Box className={st.box} m={2} width={"500px"} height={"400px"}>
+          <Card>
+            <img src={storeimg} alt="" />
+            <CardContent className={st.cardclass}>
+              <h2 className={st.prTitle}>
+                <a
+                  target="_blank"
+                  href="https://yousefjoe1.github.io/Simple-E-commerce/index.html"
+                >
+                  Click To Visit Store.
+                </a>
+              </h2>
+              <h3 className={st.description}>
+                HTML + CSS + JAVASCRIPT + BOOTSTRAP
               </h3>
             </CardContent>
           </Card>
