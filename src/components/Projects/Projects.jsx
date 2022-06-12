@@ -14,12 +14,31 @@ import Travel_advisor_project from "../../Imgs/Travel_advisor_project.png";
 import crypto_project from "../../Imgs/crypto_project.png";
 import questions from "../../Imgs/questions.png";
 import storeimg from "../../imgs/store.png";
+import discord from "../../imgs/discord.png";
 
 const Projects = () => {
   return (
     <section id="projects" className={st.projectsContainer}>
       <h1 className={st.title}>Projects</h1>
       <Grid justifyContent={"center"} container>
+        <Box className={st.box} m={2} width={"500px"} height={"400px"}>
+          <Card>
+            <img src={discord} alt="" />
+            <CardContent className={st.cardclass}>
+              <h2>
+                <a
+                  target="_blank"
+                  href="https://yousefjoe1.github.io/discord-clone/#/"
+                >
+                  Click To Visit Discord
+                </a>
+              </h2>
+              <h3 className={st.description}>
+                HTML + CSS + JAVASCRIPT + REACT.JS + REACT_BOOTSTRAP + BOOTSTRAP
+              </h3>
+            </CardContent>
+          </Card>
+        </Box>
         <Box className={st.box} m={2} width={"500px"} height={"400px"}>
           <Card>
             <img src={adviceGen} alt="" />
