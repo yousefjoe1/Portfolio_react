@@ -17,6 +17,7 @@ import storeimg from "../../imgs/store.png";
 import discord from "../../imgs/discord.png";
 import linkedin from "../../imgs/linkedin.png";
 import calc from "../../imgs/calc.png";
+import todo from "../../imgs/todo.png";
 
 const Projects = () => {
   return (
@@ -97,8 +98,23 @@ const Projects = () => {
             <img src={calc} alt="" />
             <CardContent className={st.cardclass}>
               <h2 className={st.prTitle}>
-                <a href="https://yousefjoe1.github.io/Simple-Todo-app/">
+                <a href="https://github.com/yousefjoe1/Simple-Calculator">
                   Click To Visit Calculator
+                </a>
+              </h2>
+              <h3 className={st.description}>
+                HTML + CSS + JAVASCRIPT + REACT.JS + TYPESCRIPT + TAILWIND CSS
+              </h3>
+            </CardContent>
+          </Card>
+        </Box>
+        <Box className={st.box} m={2} width={"500px"} height={"400px"}>
+          <Card>
+            <img src={todo} alt="" />
+            <CardContent className={st.cardclass}>
+              <h2 className={st.prTitle}>
+                <a href="https://yousefjoe1.github.io/Simple-Todo-app/">
+                  Click To Visit Todo
                 </a>
               </h2>
               <h3 className={st.description}>
