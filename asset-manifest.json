@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio_react/static/css/main.a1c9290d.css",
-    "main.js": "/Portfolio_react/static/js/main.e485b227.js",
+    "main.js": "/Portfolio_react/static/js/main.d14dfd5f.js",
     "static/media/weatherapp.png": "/Portfolio_react/static/media/weatherapp.f24cbb27fd2de2d932d3.png",
     "static/media/amazontemp.png": "/Portfolio_react/static/media/amazontemp.65af4a21a6a1d6280ce6.png",
     "static/media/Travel_advisor_project.png": "/Portfolio_react/static/media/Travel_advisor_project.150e54f0cfca6221492d.png",
@@ -20,13 +20,14 @@
     "static/media/c3.png": "/Portfolio_react/static/media/c3.a38608188f23fee49eaa.png",
     "static/media/crypto_project.png": "/Portfolio_react/static/media/crypto_project.8395c992f5b5df54b02a.png",
     "static/media/questions.png": "/Portfolio_react/static/media/questions.06a0a49726bf03e302e8.png",
+    "static/media/todo.png": "/Portfolio_react/static/media/todo.68eca3245b95226093d3.png",
     "static/media/advice-generator.png": "/Portfolio_react/static/media/advice-generator.6fb90875503dc008677f.png",
     "index.html": "/Portfolio_react/index.html",
     "main.a1c9290d.css.map": "/Portfolio_react/static/css/main.a1c9290d.css.map",
-    "main.e485b227.js.map": "/Portfolio_react/static/js/main.e485b227.js.map"
+    "main.d14dfd5f.js.map": "/Portfolio_react/static/js/main.d14dfd5f.js.map"
   },
   "entrypoints": [
     "static/css/main.a1c9290d.css",
-    "static/js/main.e485b227.js"
+    "static/js/main.d14dfd5f.js"
   ]
 }
