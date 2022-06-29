@@ -13,11 +13,11 @@ import weatherapp from "../../Imgs/weatherapp.png";
 import Travel_advisor_project from "../../Imgs/Travel_advisor_project.png";
 import crypto_project from "../../Imgs/crypto_project.png";
 import questions from "../../Imgs/questions.png";
-import storeimg from "../../imgs/store.png";
-import discord from "../../imgs/discord.png";
-import linkedin from "../../imgs/linkedin.png";
-import calc from "../../imgs/calc.png";
-import todo from "../../imgs/todo.png";
+import storeimg from "../../Imgs/store.png";
+import discord from "../../Imgs/discord.png";
+import linkedin from "../../Imgs/linkedin.png";
+import calc from "../../Imgs/calc.png";
+import todo from "../../Imgs/todo.png";
 
 const Projects = () => {
   return (
@@ -93,12 +93,12 @@ const Projects = () => {
             </CardContent>
           </Card>
         </Box>
-        <Box className={st.box} m={2} width={"500px"} height={"400px"}>
+        <Box className={st.box} m={2} width={"500px"} height={"500px"}>
           <Card>
             <img src={calc} alt="" />
             <CardContent className={st.cardclass}>
               <h2 className={st.prTitle}>
-                <a href="https://github.com/yousefjoe1/Simple-Calculator">
+                <a href="https://yousefjoe1.github.io/Simple-Calculator/">
                   Click To Visit Calculator
                 </a>
               </h2>
@@ -108,7 +108,7 @@ const Projects = () => {
             </CardContent>
           </Card>
         </Box>
-        <Box className={st.box} m={2} width={"500px"} height={"400px"}>
+        <Box className={st.box} m={2} width={"500px"} height={"500px"}>
           <Card>
             <img src={todo} alt="" />
             <CardContent className={st.cardclass}>
@@ -123,7 +123,7 @@ const Projects = () => {
             </CardContent>
           </Card>
         </Box>
-        <Box className={st.box} m={2} width={"500px"} height={"400px"}>
+        <Box className={st.box} m={2} width={"500px"} height={"450px"}>
           <Card>
             <img src={temp1} alt="" />
             <CardContent className={st.cardclass}>
