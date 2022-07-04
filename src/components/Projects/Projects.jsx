@@ -18,6 +18,7 @@ import discord from "../../Imgs/discord.png";
 import linkedin from "../../Imgs/linkedin.png";
 import calc from "../../Imgs/calc.png";
 import todo from "../../Imgs/todo.png";
+import wordgame from "../../Imgs/wordsgame.png";
 
 const Projects = () => {
   return (
@@ -100,6 +101,21 @@ const Projects = () => {
               <h2 className={st.prTitle}>
                 <a href="https://yousefjoe1.github.io/Simple-Calculator/">
                   Click To Visit Calculator
+                </a>
+              </h2>
+              <h3 className={st.description}>
+                HTML + CSS + JAVASCRIPT + REACT.JS + TYPESCRIPT + TAILWIND CSS
+              </h3>
+            </CardContent>
+          </Card>
+        </Box>
+        <Box className={st.box} m={2} width={"500px"} height={"500px"}>
+          <Card>
+            <img src={wordgame} alt="" />
+            <CardContent className={st.cardclass}>
+              <h2 className={st.prTitle}>
+                <a href="https://yousefjoe1.github.io/Words-Game/">
+                  Click To Visit Words Game
                 </a>
               </h2>
               <h3 className={st.description}>
