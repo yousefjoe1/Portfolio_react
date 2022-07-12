@@ -18,7 +18,7 @@ import discord from "../../Imgs/discord.png";
 import linkedin from "../../Imgs/linkedin.png";
 import calc from "../../Imgs/calc.png";
 import todo from "../../Imgs/todo.png";
-import wordgame from "../../Imgs/wordsgame.png";
+import wordgame from "../../Imgs/wordgame.png";
 
 const Projects = () => {
   return (
@@ -84,7 +84,10 @@ const Projects = () => {
             <img src={amazon} alt="" />
             <CardContent className={st.cardclass}>
               <h2 className={st.prTitle}>
-                <a href="https://yousefjoe1.github.io/amazone1/">
+                <a
+                  href="https://yousefjoe1.github.io/amazone1/"
+                  target="_blank"
+                >
                   Click To Visit Amazon
                 </a>
               </h2>
@@ -99,7 +102,10 @@ const Projects = () => {
             <img src={calc} alt="" />
             <CardContent className={st.cardclass}>
               <h2 className={st.prTitle}>
-                <a href="https://yousefjoe1.github.io/Simple-Calculator/">
+                <a
+                  href="https://yousefjoe1.github.io/Simple-Calculator/"
+                  target="_blank"
+                >
                   Click To Visit Calculator
                 </a>
               </h2>
@@ -114,7 +120,10 @@ const Projects = () => {
             <img src={wordgame} alt="" />
             <CardContent className={st.cardclass}>
               <h2 className={st.prTitle}>
-                <a href="https://yousefjoe1.github.io/Words-Game/">
+                <a
+                  href="https://yousefjoe1.github.io/Words-Game/"
+                  target="_blank"
+                >
                   Click To Visit Words Game
                 </a>
               </h2>
@@ -129,7 +138,10 @@ const Projects = () => {
             <img src={todo} alt="" />
             <CardContent className={st.cardclass}>
               <h2 className={st.prTitle}>
-                <a href="https://yousefjoe1.github.io/Simple-Todo-app/">
+                <a
+                  href="https://yousefjoe1.github.io/Simple-Todo-app/"
+                  target="_blank"
+                >
                   Click To Visit Todo
                 </a>
               </h2>
