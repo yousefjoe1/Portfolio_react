@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useContext } from "react";
 
 import st from "./skills.module.css";
 import { DiBootstrap } from "react-icons/di";
@@ -11,10 +11,17 @@ import { DiGit } from "react-icons/di";
 import { DiFirebase } from "react-icons/di";
 
 import { FaBeer } from "react-icons/fa";
+import { ThemeChanger } from "../../App";
 
 const Skills = () => {
+  const darkMode = useContext(ThemeChanger);
+
+  const darkModeStyle = {
+    backgroundColor: darkMode ? "black" : "",
+    boxShadow: darkMode ? "1px 1px 2px white, -1px -1px 2px white" : "",
+  };
   return (
-    <div className={st.skillsContainer} id="skills">
+    <div style={darkModeStyle} className={st.skillsContainer} id="skills">
       <h1 className={st.title}>Skills</h1>
 
       <section className={st.circle}>

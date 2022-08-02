@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useContext } from "react";
 import styles from "./header.module.css";
 import {
   AppBar,
@@ -12,11 +12,18 @@ import {
   Typography,
 } from "@mui/material";
 import AllOutIcon from "@mui/icons-material/AllOut";
+import { ThemeChanger } from "../../App";
 
 const Header = () => {
+  const darkMode = useContext(ThemeChanger);
+
+  const darkModeStyle = {
+    backgroundColor: darkMode ? "black" : "",
+  };
+
   const [showNav, setShowNav] = useState(false);
   return (
-    <AppBar position="fixed">
+    <AppBar style={darkModeStyle} position="fixed">
       <Stack
         direction={"row"}
         justifyContent="space-between"

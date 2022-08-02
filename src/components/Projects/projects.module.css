@@ -25,6 +25,11 @@
     overflow: hidden;
 }
 
+.box:hover {
+    box-shadow: 2px 2px 3px white, -2px -2px 3px white;
+    border-radius: 10px;
+}
+
 .cardclass {
     transition: all ease 1s;
     background-color: #1976d2;

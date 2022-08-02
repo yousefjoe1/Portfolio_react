@@ -1,5 +1,5 @@
 import { Box, Card, CardContent, Grid } from "@mui/material";
-import React from "react";
+import React, { useContext } from "react";
 
 import img1 from "../../Imgs/Certf/c1.png";
 import img2 from "../../Imgs/Certf/c2.png";
@@ -9,10 +9,22 @@ import img5 from "../../Imgs/Certf/c5.png";
 import img6 from "../../Imgs/Certf/c6.png";
 
 import st from "./certificate.module.css";
+import { ThemeChanger } from "../../App";
 
 const Certificate = () => {
+  const darkMode = useContext(ThemeChanger);
+
+  const darkModeStyle = {
+    backgroundColor: darkMode ? "black" : "",
+    boxShadow: darkMode ? "1px 1px 2px white, -1px -1px 2px white" : "",
+  };
+
   return (
-    <section id="certificates" className={st.certifcatesContainer}>
+    <section
+      style={darkModeStyle}
+      id="certificates"
+      className={st.certifcatesContainer}
+    >
       <Grid justifyContent={"center"} container>
         <Box className={st.box} m={3}>
           <Card>

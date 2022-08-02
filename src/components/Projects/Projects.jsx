@@ -1,6 +1,6 @@
 import { Accordion, Card, CardContent, Grid } from "@mui/material";
 import { Box } from "@mui/system";
-import React from "react";
+import React, { useContext } from "react";
 
 import st from "./projects.module.css";
 
@@ -20,9 +20,24 @@ import calc from "../../Imgs/calc.png";
 import todo from "../../Imgs/todo.png";
 import wordgame from "../../Imgs/wordgame.png";
 
+import { ThemeChanger } from "../../App";
+
 const Projects = () => {
+  const darkMode = useContext(ThemeChanger);
+
+  const darkModeStyle = {
+    backgroundColor: darkMode ? "black" : "",
+  };
+  const darkModeStyleShadow = {
+    boxShadow: darkMode ? "1px 1px 2px white, -1px -1px 2px white" : "",
+  };
+
   return (
-    <section id="projects" className={st.projectsContainer}>
+    <section
+      style={darkModeStyle}
+      id="projects"
+      className={st.projectsContainer}
+    >
       <h1 className={st.title}>Projects</h1>
       <Grid justifyContent={"center"} container>
         <Box className={st.box} m={2} width={"500px"} height={"400px"}>

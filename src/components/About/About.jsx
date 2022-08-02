@@ -1,13 +1,20 @@
-import React from "react";
+import React, { useContext } from "react";
 
 import me from "../../Imgs/me.png";
 import st from "./about.module.css";
 
 import { DiGithubBadge } from "react-icons/di";
+import { ThemeChanger } from "../../App";
 
 const About = () => {
+  const darkMode = useContext(ThemeChanger);
+
+  const darkModeStyle = {
+    backgroundColor: darkMode ? "black" : "",
+  };
+
   return (
-    <div id="about" className={st.aboutContainer}>
+    <div style={darkModeStyle} id="about" className={st.aboutContainer}>
       <h1 className={st.title}>About</h1>
       <section className={st.aboutSection}>
         <img src={me} alt="" />
