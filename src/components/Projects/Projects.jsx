@@ -19,6 +19,7 @@ import linkedin from "../../Imgs/linkedin.png";
 import calc from "../../Imgs/calc.png";
 import todo from "../../Imgs/todo.png";
 import wordgame from "../../Imgs/wordgame.png";
+import memoryGame from "../../Imgs/mem-game.png";
 
 import { ThemeChanger } from "../../App";
 
@@ -42,6 +43,25 @@ const Projects = () => {
       <Grid justifyContent={"center"} container>
         <Box className={st.box} m={2} width={"500px"} height={"400px"}>
           <Card>
+            <img src={memoryGame} alt="" />
+            <CardContent className={st.cardclass}>
+              <h2>
+                <a
+                  target="_blank"
+                  href="https://yousefjoe1.github.io/Memory-Game/"
+                >
+                  Click To Visit Memory Game
+                </a>
+              </h2>
+              <h3 className={st.description}>
+                HTML + CSS + JAVASCRIPT + REACT.JS + REACT-TYPESCRIPT +
+                TAILWIND_CSS
+              </h3>
+            </CardContent>
+          </Card>
+        </Box>
+        <Box className={st.box} m={2} width={"500px"} height={"400px"}>
+          <Card>
             <img src={linkedin} alt="" />
             <CardContent className={st.cardclass}>
               <h2>
@@ -49,7 +69,7 @@ const Projects = () => {
                   target="_blank"
                   href="https://yousefjoe1.github.io/linkedIn-clone-2022/"
                 >
-                  Click To Visit LinkedIn
+                  Click To Visit LinkedIn(cloned)
                 </a>
               </h2>
               <h3 className={st.description}>
@@ -67,7 +87,7 @@ const Projects = () => {
                   target="_blank"
                   href="https://yousefjoe1.github.io/discord-clone/#/"
                 >
-                  Click To Visit Discord
+                  Click To Visit Discord(cloned)
                 </a>
               </h2>
               <h3 className={st.description}>
@@ -103,7 +123,7 @@ const Projects = () => {
                   href="https://yousefjoe1.github.io/amazone1/"
                   target="_blank"
                 >
-                  Click To Visit Amazon
+                  Click To Visit Amazon(cloned)
                 </a>
               </h2>
               <h3 className={st.description}>
