@@ -20,6 +20,7 @@ import calc from "../../Imgs/calc.png";
 import todo from "../../Imgs/todo.png";
 import wordgame from "../../Imgs/wordgame.png";
 import memoryGame from "../../Imgs/mem-game.png";
+import productLandingpage from "../../Imgs/product-landingpage.png";
 
 import { ThemeChanger } from "../../App";
 
@@ -41,6 +42,25 @@ const Projects = () => {
     >
       <h1 className={st.title}>Projects</h1>
       <Grid justifyContent={"center"} container>
+        <Box className={st.box} m={2} width={"500px"} height={"400px"}>
+          <Card>
+            <img src={productLandingpage} alt="" />
+            <CardContent className={st.cardclass}>
+              <h2>
+                <a
+                  target="_blank"
+                  href="https://yousefjoe1.github.io/Simple-Product-Landing-Page/"
+                >
+                  Click To Visit Simple Product Landing Page
+                </a>
+              </h2>
+              <h3 className={st.description}>
+                HTML + CSS + JAVASCRIPT + REACT.JS + REACT-TYPESCRIPT +
+                TAILWIND_CSS
+              </h3>
+            </CardContent>
+          </Card>
+        </Box>
         <Box className={st.box} m={2} width={"500px"} height={"400px"}>
           <Card>
             <img src={memoryGame} alt="" />
