@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio_react/static/css/main.7d7a8bde.css",
-    "main.js": "/Portfolio_react/static/js/main.a66dc807.js",
+    "main.js": "/Portfolio_react/static/js/main.a762a3f5.js",
     "static/media/weatherapp.png": "/Portfolio_react/static/media/weatherapp.f24cbb27fd2de2d932d3.png",
     "static/media/amazontemp.png": "/Portfolio_react/static/media/amazontemp.65af4a21a6a1d6280ce6.png",
     "static/media/Travel_advisor_project.png": "/Portfolio_react/static/media/Travel_advisor_project.150e54f0cfca6221492d.png",
@@ -11,6 +11,7 @@
     "static/media/me.png": "/Portfolio_react/static/media/me.2df38102c23e3e4e2356.png",
     "static/media/temp1.png": "/Portfolio_react/static/media/temp1.7bf39427e96272e002db.png",
     "static/media/c4.png": "/Portfolio_react/static/media/c4.bb096284f522e58e7128.png",
+    "static/media/product-landingpage.png": "/Portfolio_react/static/media/product-landingpage.d77586cd44d90ddbbd47.png",
     "static/media/shoppingcart.png": "/Portfolio_react/static/media/shoppingcart.db2ff33029377ea1a2fb.png",
     "static/media/c1.png": "/Portfolio_react/static/media/c1.50dbf321b5b99211e66a.png",
     "static/media/c6.png": "/Portfolio_react/static/media/c6.9a8dd5b622e8904e8f62.png",
@@ -26,10 +27,10 @@
     "static/media/advice-generator.png": "/Portfolio_react/static/media/advice-generator.6fb90875503dc008677f.png",
     "index.html": "/Portfolio_react/index.html",
     "main.7d7a8bde.css.map": "/Portfolio_react/static/css/main.7d7a8bde.css.map",
-    "main.a66dc807.js.map": "/Portfolio_react/static/js/main.a66dc807.js.map"
+    "main.a762a3f5.js.map": "/Portfolio_react/static/js/main.a762a3f5.js.map"
   },
   "entrypoints": [
     "static/css/main.7d7a8bde.css",
-    "static/js/main.a66dc807.js"
+    "static/js/main.a762a3f5.js"
   ]
 }
