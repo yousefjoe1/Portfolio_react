@@ -21,6 +21,7 @@ import todo from "../../Imgs/todo.png";
 import wordgame from "../../Imgs/wordgame.png";
 import memoryGame from "../../Imgs/mem-game.png";
 import productLandingpage from "../../Imgs/product-landingpage.png";
+import freelance1 from "../../Imgs/first-work-freelance.png";
 
 import { ThemeChanger } from "../../App";
 
@@ -41,6 +42,70 @@ const Projects = () => {
       className={st.projectsContainer}
     >
       <h1 className={st.title}>Projects</h1>
+      <h1 className={st.title}>Freelance:</h1>
+      <Grid justifyContent={"center"} container>
+        <Box className={st.box} m={2} width={"500px"} height={"700px"}>
+          <Card>
+            <img src={freelance1} alt="" />
+            <CardContent className={st.cardclass}>
+              <h2>
+                <a
+                  target="_blank"
+                  href="https://digitalgym.in/v1/app/pages/dashboards/default.html"
+                >
+                  Click To Visit Dgym
+                </a>
+              </h2>
+              <h3 className={st.description}>
+                HTML + CSS + JAVASCRIPT + BOOTSTRAP
+              </h3>
+              <div className={st.pagesFreelance}>
+                <h4 style={{ color: "whitesmoke" }}>
+                  Pages I worked on until now:{" "}
+                </h4>
+                <h4 style={{ color: "whitesmoke" }}>Main dashboard</h4>
+                <h4 style={{ color: "whitesmoke" }}>
+                  Member dashboard. Link:{" "}
+                  <a
+                    href="https://digitalgym.in/v1/app/pages/applications/wizard.html"
+                    target="_blank"
+                  >
+                    Go
+                  </a>
+                </h4>
+                <h4 style={{ color: "whitesmoke" }}>
+                  Member Management. Link:
+                  <a
+                    href="https://digitalgym.in/v1/app/pages/applications/analytics.html"
+                    target="_blank"
+                  >
+                    Go
+                  </a>
+                </h4>
+                <h4 style={{ color: "whitesmoke" }}>
+                  Log in. Link:{" "}
+                  <a
+                    href="https://digitalgym.in/v1/app/pages/authentication/signin/cover.html"
+                    target="_blank"
+                  >
+                    Go
+                  </a>
+                </h4>
+                <h4 style={{ color: "whitesmoke" }}>
+                  Sign up. Link:{" "}
+                  <a
+                    href="https://digitalgym.in/v1/app/pages/authentication/signup/cover.html"
+                    target="_blank"
+                  >
+                    Go
+                  </a>
+                </h4>
+              </div>
+            </CardContent>
+          </Card>
+        </Box>
+      </Grid>
+      <h1 className={st.title}>Personal Projects:</h1>
       <Grid justifyContent={"center"} container>
         <Box className={st.box} m={2} width={"500px"} height={"400px"}>
           <Card>
