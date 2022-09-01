@@ -44,7 +44,7 @@ const Projects = () => {
       <h1 className={st.title}>Projects</h1>
       <h1 className={st.title}>Freelance:</h1>
       <Grid justifyContent={"center"} container>
-        <Box className={st.box} m={2} width={"500px"} height={"700px"}>
+        <Box className={st.box} m={2} width={"500px"}>
           <Card>
             <img src={freelance1} alt="" />
             <CardContent className={st.cardclass}>
@@ -65,24 +65,6 @@ const Projects = () => {
                 </h4>
                 <h4 style={{ color: "whitesmoke" }}>Main dashboard</h4>
                 <h4 style={{ color: "whitesmoke" }}>
-                  Member dashboard. Link:{" "}
-                  <a
-                    href="https://digitalgym.in/v1/app/pages/applications/wizard.html"
-                    target="_blank"
-                  >
-                    Go
-                  </a>
-                </h4>
-                <h4 style={{ color: "whitesmoke" }}>
-                  Member Management. Link:
-                  <a
-                    href="https://digitalgym.in/v1/app/pages/applications/analytics.html"
-                    target="_blank"
-                  >
-                    Go
-                  </a>
-                </h4>
-                <h4 style={{ color: "whitesmoke" }}>
                   Log in. Link:{" "}
                   <a
                     href="https://digitalgym.in/v1/app/pages/authentication/signin/cover.html"
@@ -95,6 +77,69 @@ const Projects = () => {
                   Sign up. Link:{" "}
                   <a
                     href="https://digitalgym.in/v1/app/pages/authentication/signup/cover.html"
+                    target="_blank"
+                  >
+                    Go
+                  </a>
+                </h4>
+                <h4 style={{ color: "whitesmoke" }}>
+                  Employee Management. Link:{" "}
+                  <a
+                    href="https://digitalgym.in/v1/app/pages/ecommerce/referral.html"
+                    target="_blank"
+                  >
+                    Go
+                  </a>
+                </h4>
+                <h4 style={{ color: "whitesmoke" }}>
+                  Member dashboard. Link:{" "}
+                  <a
+                    href="https://digitalgym.in/v1/app/pages/applications/wizard.html"
+                    target="_blank"
+                  >
+                    Go
+                  </a>
+                </h4>
+                <h4 style={{ color: "whitesmoke" }}>
+                  Member Management 1. Link:{" "}
+                  <a
+                    href="https://digitalgym.in/v1/app/pages/applications/analytics.html"
+                    target="_blank"
+                  >
+                    Go
+                  </a>
+                </h4>
+                <h4 style={{ color: "whitesmoke" }}>
+                  Member Management 2. Link:{" "}
+                  <a
+                    href="https://digitalgym.in/v1/app/pages/ecommerce/overview.html"
+                    target="_blank"
+                  >
+                    Go
+                  </a>
+                </h4>
+                <h4 style={{ color: "whitesmoke" }}>
+                  Member Management (Attendee List). Link:{" "}
+                  <a
+                    href="https://digitalgym.in/v1/app/pages/ecommerce/attendee.html"
+                    target="_blank"
+                  >
+                    Go
+                  </a>
+                </h4>
+                <h4 style={{ color: "whitesmoke" }}>
+                  Member Management (Employee List). Link:{" "}
+                  <a
+                    href="https://digitalgym.in/v1/app/pages/ecommerce/employeelist.html"
+                    target="_blank"
+                  >
+                    Go
+                  </a>
+                </h4>
+                <h4 style={{ color: "whitesmoke" }}>
+                  Member Management (Member List). Link:{" "}
+                  <a
+                    href="https://digitalgym.in/v1/app/pages/ecommerce/memberlist.html"
                     target="_blank"
                   >
                     Go
