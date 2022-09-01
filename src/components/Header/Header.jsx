@@ -37,7 +37,9 @@ const Header = () => {
           className={styles.sidenavcontainer}
         >
           <IconButton
-            className={styles.iconbtn}
+            className={`${styles.iconbtn} ${
+              darkMode && styles.iconBtnDarkmode
+            }`}
             onClick={() => setShowNav(true)}
           >
             <AllOutIcon />

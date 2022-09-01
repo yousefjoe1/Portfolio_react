@@ -4,6 +4,7 @@ import me from "../../Imgs/me.png";
 import st from "./about.module.css";
 
 import { DiGithubBadge } from "react-icons/di";
+import { BsLinkedin } from "react-icons/bs";
 import { ThemeChanger } from "../../App";
 
 const About = () => {
@@ -45,7 +46,7 @@ const About = () => {
               </p>
             </div>
             <div className={st.rightInfo}>
-              <p>26 .</p>
+              <p>27 .</p>
               <p>Egypt, El Mansoura .</p>
               <p>yousefmahmoud150@gmail.com .</p>
               <p>01061670173 .</p>
@@ -58,6 +59,13 @@ const About = () => {
               rel="github account"
             >
               <DiGithubBadge />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/youssefmahmoud1/"
+              target="_blank"
+              rel="linkedin account"
+            >
+              <BsLinkedin />
             </a>
           </div>
         </article>

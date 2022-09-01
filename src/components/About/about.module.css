@@ -45,13 +45,25 @@
 }
 
 .personalLinks {
-    border-top: 2px solid lightgrey;
+    padding: 5px;
+    width: 90%;
+    margin: 1px auto;
     border-radius: 5px;
+    border: 2px solid lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .personalLinks a {
     font-size: 40px;
     color: black;
+}
+
+.personalLinks a:nth-child(2) {
+    font-size: 35px;
+    color:#0076b5;
+    margin-left: 10px;
 }
 
 .personalLinks a:hover {
